@@ -13,6 +13,61 @@ We have talked to Ben at Avalon and we are both fairly confident that the best w
 
 We will create a WP-Multisite with sub-sites for all the channel blogs, a channel-theme and sub-themes for the blogs themselves. Each sub-theme will be able to be customized (within reason) to adapt to the blogger's personal brand (hero styles, etc.)
 
+#### Reasons for Choosing a Separate WP-Multisite Installation
+
+- Enable post-indexing of the entire channel. This will allow us to perform complex queries channel-wide, meaning we can have more granular control over where we are pulling which content. (I.E. - Authors would not have to be removed from the SixSeeds Channel to avoid having ALL of their posts listed under "family" if they cover more than just one topic)
+- Enable rich channel-wide search.
+- Enable Categorization of posts to create "sub-channels" if necessary.
+
+#### New Channel-Wide Features Enabled by Separate Install
+
+- Unlimited Scrolling on blogs
+    - At the bottom of each post we will lazy-load a related post and the user can keep scrolling. This is a strategy used by some of the best content sites on the web to increase articles per visit and thus boost ad views and time on site.
+
+- Post Indexing
+    - This will allow for complex queries, for example, querying all posts across all sub-blogs in a certain category. This should allow us to avoid the current difficulties with channel population.
+
+- Domain Mapping and URL rewrites 
+    - We will make sure the average user cannot tell that they are on a different Wordpress install (aside from visual differences in the theme) by doing URL rewrites from the Patheos server to the new server.
+
+- Categorization within the channel
+    - This will allow us to potentially create sub-channels as SixSeeds grows, should we need to further categorize content.
+
+- REST API
+    - This will allow for third party syndication of the content, should it be needed, and will also speed the development of blog theme features.
+
+#### Potential Downsides
+
+- Admins and Authors will need to have two accounts. Sessions will not persist between the main Pathos Wordpress install and the Six-Seeds install
+
+### Page Templates To be Re-Designed
+
+- Context Specific Sub-Templates
+   - Header Navigation
+      - *Navigation on the main channel pages will primarily include channel level pages.*
+	      - Blog List
+	      - About SixSeeds
+      - *Navigation on the sub-blog pages will primarily include blog level pages. Examples:*
+         - About Page
+         - Contextual categories
+   - Footer
+      - Recent posts (channel or blog wide based on context)
+   - Related Posts
+   
+
+- Channel Level Templates
+    - Channel Index
+    - Blog List
+    - Category Index
+    - Channel Search Page
+
+- Blog Level Templates
+    - Blog Index
+    - Single Post
+    - Category Index
+    - Blog Search Page
+    - Author About Page
+
 
 ### Existing Elements of Pages
 Below is a list of the existing elements of each of the pages we wish to redesign. We will make recommendations regarding some of these.

@@ -4,6 +4,8 @@
 
 #### Documents
 
+###### Planning
+
 1. [Functional Specifications](documents/FunctionalSpecifications.md)
 
 #### Designs

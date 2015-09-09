@@ -167,3 +167,15 @@ This currently contains all manner of widgets, ads, cross promotion, etc.
     - Move Patheos level Social and Newsletter subscription material within the Patheos Dropdown
 - SixSeeds Dropdown: Mega-Box style dropdown with multiple styles of elements
     - Move SixSeeds level Social and Newsletter subscription material within the SixSeeds Dropdown
+
+##### Keep Author Social Channels in sidebar
+- We want to avoid overwhelming users with too many social icons. Confused users don't click on things and multiple social icons, just like the classic "multiple download button scam" make users mistrust their decisions and not click at all.
+- We should keep the visible social icons constrained to the current page-level. So on single blog post pages, we will show the Author's social info in the sidebar and contain Platform and Channel level social/newsletter sign-up to the brand dropdowns.
+
+##### Condense Popular/Trending Posts
+- Showing both "Popular at Patheos Family" and "Trending at Patheos Family" is redundant. To avoid overwhelming users, we will Show only one of these (Currently leaning toward trending)
+
+##### Move social sharing and comments (All the "commmunity elements") to a fixed scrolling bottom bar that tracks with the user.
+- This keep these items front and center for the user.
+- We are aiming to convey that this bar is full of tools useful to the engaged user.
+

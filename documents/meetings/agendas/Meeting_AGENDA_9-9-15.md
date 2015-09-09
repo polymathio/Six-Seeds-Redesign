@@ -7,6 +7,11 @@
 - Adam King 
 - Daniel Coulbourne
 
+- Nancy French
+- Leo Brunnick
+- Cathy Brunnick
+- Murray McKenzie
+
 ## Notes
 - [EXTERNAL FILE](../notes/Meeting_NOTES_9-9-15.md)
 

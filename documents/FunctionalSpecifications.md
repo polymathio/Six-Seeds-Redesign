@@ -125,9 +125,9 @@ This is the main content section, the reason users are on the page. Currently it
 - Main Article Body
 - Promo for Family Channel and Artist Social
 - More Post Metadata
-	- Categories
-	- Tags
-	- Number of Comments
+    - Categories
+    - Tags
+    - Number of Comments
 - Social Sharing Widget
 - Related Posts
 - Previous / Next Post links again
@@ -153,3 +153,17 @@ This currently contains all manner of widgets, ads, cross promotion, etc.
 - Recent Comments
 - Square Banner Ad
 
+### Suggested Refactoring of Elements of Pages
+
+#### Single Blog Post Page
+
+##### Create single navigation bar while on blog level pages
+- Include strong blog-level branding as the primary branding on the left.
+- Simplify navigation to include blog-level navigation as primary destinations, with inter-level navigation contained within dropdowns
+
+##### Group Patheos and SixSeeds branded items in branded dropdowns while on blog-level pages
+- Patheos Dropdown: Mega-Box style dropdown with multiple styles of elements
+    - Combine sections [1] and [2] within a single dropdown at the top of the page (containing all Patheos branded items)
+    - Move Patheos level Social and Newsletter subscription material within the Patheos Dropdown
+- SixSeeds Dropdown: Mega-Box style dropdown with multiple styles of elements
+    - Move SixSeeds level Social and Newsletter subscription material within the SixSeeds Dropdown

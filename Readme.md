@@ -22,4 +22,4 @@
 
 ###### Notes
 
-1. [9-9-2015](documents/meetings/NOTES/Meeting_NOTES_9-9-15.md)
+1. [9-9-2015](documents/meetings/notes/Meeting_NOTES_9-9-15.md)

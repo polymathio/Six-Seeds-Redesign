@@ -14,6 +14,11 @@
 
 1. [Single Blog Post Page](design/wireframes/Blog__SINGLE.png)
 
+###### Style Guide
+
+1. [Colors and Typography](design/styleguide/Style.png)
+2. [Sample Usage](design/styleguide/Style__USAGE.png)
+
 #### Meetings
 
 ###### Agendas

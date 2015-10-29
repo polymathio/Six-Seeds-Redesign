@@ -8,7 +8,7 @@
 
 1. [Functional Specifications](documents/planning/FunctionalSpecifications.md)
 
-#### Designs
+#### Design Files
 
 ###### Wireframes
 

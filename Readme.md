@@ -12,7 +12,13 @@
 
 ###### Wireframes
 
-1. [Single Blog Post Page](design/wireframes/Blog__SINGLE.png)
+1. [Annotated Invision Project](https://invis.io/NB49243QP)
+2. [Single Blog Post Page](design/wireframes/Blog__SINGLE.png)
+
+###### Style Guide
+
+1. [Colors and Typography](design/styleguide/Style.png)
+2. [Sample Usage](design/styleguide/Style__USAGE.png)
 
 #### Meetings
 
